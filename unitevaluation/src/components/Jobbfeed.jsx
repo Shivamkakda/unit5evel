@@ -41,7 +41,7 @@ export const Jobbfeed = () => {
            
 <div>
                 {data.map(({ id, companyName, jobTitle, salaryRange, jobDescription, location, jobType }) => (
-                    <div border={'1px solid #ebebeb'} rounded={5} p={4} key={id} divShadow={'lg'}>
+                    <div >
                         
                         <span />
                         <table fontSize={17}>
@@ -64,7 +64,7 @@ export const Jobbfeed = () => {
                                 </tr>
                             </div>
                         </table>
-                        <button size='md' colorScheme={'teal'} w={'100%'}>Apply</button>
+                        <button >Apply</button>
                     </div>
                 ))}
             </div>
